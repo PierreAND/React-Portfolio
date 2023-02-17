@@ -1,8 +1,9 @@
 
 
 
-function App() {
+const App = () =>  {
  <>
+ <div>Hello Wolrd !</div>
  </>
 }
 
