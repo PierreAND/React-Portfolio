@@ -1,1 +1,12 @@
 @charset "utf-8";
+
+@import "./base/reset";
+@import "./base/base";
+
+@import "./contact/contact";
+@import "./footer/footer";
+@import "./header/header";
+@import "./navbar/navbar";
+@import "./portfolio/portfolio";
+@import "./services/services";
+@import "./testimonials/testimonials"
