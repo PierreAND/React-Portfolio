@@ -1,7 +1,23 @@
+import faqs from "./data"
+import FAQ from "./FAQ"
+import { useState } from "react"
 
 const FAQs = () => {
-  return (
-    <section id="faqs"><h2>FAQs</h2></section>
+ return (
+    <section id="faqs">
+      <h2>Frequently Asked Questions</h2>
+      <p>
+        Here are some questions I usually get. Click to toggle the answer, and if you still have some more question, shoot me a message from the contact section ! 
+      </p>
+      <div className="container faqs__container">
+      {
+        faqs.map(faq => (
+          <FAQ key={faq.id} faq={faq}/>
+
+        ))
+      }
+      </div>
+    </section>
   )
 }
 

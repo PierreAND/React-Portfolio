@@ -5,9 +5,9 @@ import {BsLightbulb} from 'react-icons/bs'
 
 
 const data = [
-    {id: 1, icon: <FaAward/>, title: 'Experience', desc: '3+ Years Working'},
-    {id: 2, icon: <TbBooks/>, title: 'Projects', desc: '180+ Completed'},
-    {id: 3, icon: <BiHappyHeartEyes/>, title: 'Clients', desc: '70+ happy clients'},
+    {id: 1, icon: <FaAward/>, title: 'Experience', desc: '1+ Year Working'},
+    {id: 2, icon: <TbBooks/>, title: 'Projects', desc: '10+ Completed'},
+    {id: 3, icon: <BiHappyHeartEyes/>, title: 'Clients', desc: 'happy clients'},
     {id: 4, icon: <BsLightbulb/>, title: 'Leading', desc: 'team-leader sports/guild master game'}
     ]
 
