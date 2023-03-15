@@ -1,9 +1,13 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import { RxHamburgerMenu } from "react-icons/rx";
+
+
+
 function Navbar() {
   const [toggleMenu, setToggleMenu] = useState(false);
   const [largeur, setLargeur] = useState(window.innerWidth);
+
 
   const toggleNav = () => {
     setToggleMenu(!toggleMenu);

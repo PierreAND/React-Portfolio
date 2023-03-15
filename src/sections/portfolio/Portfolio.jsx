@@ -3,13 +3,16 @@ import Projects from './Projects'
 import ProjectsCategories from './ProjectsCategories'
 import data from "./data"
 import { useState } from 'react'
+import { useTranslation } from "react-i18next";
+
 
 const Portfolio = () => {
+  const { t, i18n } = useTranslation();
   const [projects, setProjects] = useState(data)
   return (
     <section id="portfolio">
-      <h2>Recent Projects</h2>
-      <p>Check out some of projects I recently worked on ! Use the buttons to toggle the different categories</p>
+      <h2>{t("description.part11")}</h2>
+      <p>{t("description.part12")}</p>
     <div className="container portfolio__container">
       <ProjectsCategories/>
       <Projects projects={projects}/>

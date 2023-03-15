@@ -1,13 +1,14 @@
 import faqs from "./data"
 import FAQ from "./FAQ"
-import { useState } from "react"
+import { useTranslation } from "react-i18next";
 
 const FAQs = () => {
+  const { t, i18n } = useTranslation();
  return (
     <section id="faqs">
-      <h2>Frequently Asked Questions</h2>
+      <h2>{t("description.part13")}</h2>
       <p>
-        Here are some questions I usually get. Click to toggle the answer, and if you still have some more question, shoot me a message from the contact section ! 
+        {t("description.part14")}
       </p>
       <div className="container faqs__container">
       {

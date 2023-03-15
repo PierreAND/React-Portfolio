@@ -1,12 +1,14 @@
 import data from "./data"
+import { useTranslation } from "react-i18next";
 
 const Contact  = () => {
+  const { t, i18n } = useTranslation();
 return (
   <section id="contact">
     <div className="job">
-    <h2>CONTACTEZ-MOI </h2>
-  <h5>Actuellement à la recherche d'un nouvel emploi/stage, je suis interéssé par les poste de : </h5>
-    <p>Developpeur full-stack - Developpeur front-end - Intégrateur web</p>
+    <h2>{t("description.part15")} </h2>
+  <h5>{t("description.part16")}</h5>
+    <p>{t("description.part17")}</p>
  </div>
   <div className="container contact__container">
     {
