@@ -35,6 +35,24 @@
   margin-bottom: 0.6rem;
 }
 
+
+.outil {
+  display: flex;
+  justify-content: center;
+  width: fit-content;
+  padding-top: 50px;
+  transition: $transition;
+}
+
+.title-outil {
+  padding-top: 40px;
+}
+
+
+.outil img:hover {
+  background: transparent;
+  transform: translateY(-0.5rem);
+}
 /* RESPONSIVE TABLETS */
 
 @media screen and (max-width: 1024px) {

@@ -1,27 +1,50 @@
 import React from "react";
-import data from "./data";
-import { IoIosColorPalette } from "react-icons/io";
+import { useState, useEffect } from "react";
+import { RxHamburgerMenu } from "react-icons/rx";
+function Navbar() {
+  const [toggleMenu, setToggleMenu] = useState(false);
+  const [largeur, setLargeur] = useState(window.innerWidth);
 
-const Navbar = () => {
+  const toggleNav = () => {
+    setToggleMenu(!toggleMenu);
+  };
+
+  useEffect(() => {
+    const changeWidth = () => {
+      setLargeur(window.innerWidth);
+    };
+    window.addEventListener("resize", changeWidth);
+
+    return () => {
+      window.removeEventListener("resize", changeWidth);
+    };
+  }, []);
+
   return (
     <nav>
-      <div className="container nav__container">
-        <a href="index.html" className="nav__logo">
-          <img src="/public/zappa.jpg" alt="Logo" />
-        </a>
-        <ul className="nav__menu">
-          {data.map((item) => (
-            <li key={item.id}>
-              <a href={item.link}>{item.title}</a>
-            </li>
-          ))}
+      {(toggleMenu || largeur > 600) && (
+        <ul className="liste">
+        
+          <a href="#about" className="items">
+            About
+          </a>
+          <a href="#services" className="items">
+            Services
+          </a>
+          <a href="#portfolio" className="items">
+            Portfolio
+          </a>
+          <a href="#faqs" className="items">
+            FAQ
+          </a>
         </ul>
-        <button id="theme__icon">
-          <IoIosColorPalette/>
-        </button>
-      </div>
+      )}
+      
+      <button onClick={toggleNav} className="btn-nav">
+        <RxHamburgerMenu />
+      </button>
     </nav>
   );
-};
+}
 
 export default Navbar;

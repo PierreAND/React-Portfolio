@@ -9,16 +9,12 @@
 .about__portrait {
   height: fit-content;
   max-height: 40rem;
-  border-radius: 40%;
   border: 1rem solid $color-white;
   transition: $transition; 
   position: relative;
   top: 30%;
 }
 
-.about__portrait img {
-  border-radius: 40%;
-}
 
 .about__portrait:hover {
   border-width: 0;

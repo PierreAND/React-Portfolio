@@ -1,1 +1,66 @@
 @import "../abstracts/variables";
+
+.contact__container {
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.job{
+  display: grid;
+  grid-template-columns: 1fr ;;
+  align-items: center;
+  padding: 1.6rem;
+}
+
+.job h2 {
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem;
+}
+
+.job h5 {
+  display: flex;
+  justify-content: center;
+  font-weight: normal;
+}
+
+.job p {
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+
+.contact__container a {
+  width: 5rem;
+  aspect-ratio: 1/1;
+  color: white;
+  background:$color-primary;
+  display: grid;
+  place-items: center;
+  font-size: 2rem;
+  border: 2px solid transparent;
+  border-radius: $border-radius-1
+}
+
+.contact__container a:hover {
+  background: transparent;
+  border-color: $color-primary;
+  color:$color-primary;
+  transform: translateY(-0.5rem)
+}
+
+
+/*RESPONSIVE PHONE */
+@media screen and (max-width: 600px) {
+  .contact__container {
+    gap: 1.5rem;
+  }
+  .job {
+    width: fit-content;
+    display: row;
+    align-items: center;
+  
+  }
+}

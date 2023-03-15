@@ -1,4 +1,11 @@
 @import "../abstracts/variables";
+@import url('https://fonts.googleapis.com/css2?family=Epilogue&display=swap');
+
+@font-face {
+  font-family: "Milk";
+  src: url("/public/White\ Milk.otf");
+  font-display: swap;
+}
 
 
 html {
@@ -6,7 +13,7 @@ html {
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Epilogue", sans-serif;
   line-height: 1.6;
   font-size: 0.9rem
 }
@@ -15,6 +22,7 @@ body {
 /*GENERAL CONTAINER CLASS */
 
 .container  {
+
   width: $container-width-lg;
   margin-inline: auto;
   max-width: 1920px;
@@ -28,7 +36,7 @@ section {
   transition: $transition;
 }
 
-section:nth-child(even) {
+section:nth-child(odd) {
   background: $color-white;
 }
 
@@ -52,18 +60,22 @@ a {
 h1, h2, h3, h4, h5, h6 {
   line-height: 1.1;
   color: $color-black;
+  
 }
 
 h1 {
   font-size: 3rem;
+  font-family: "Milk";
 }
 
 h2 {
   font-size: 2rem;
+  font-family: "Milk";
 }
 
 h3 {
   font-size: 1.6rem;
+  font-family: "Milk";
 }
 
 h4 {
@@ -156,7 +168,6 @@ img {
 
 
 
-
 /* MEDIA QUERIES (phones) */
 @media screen and (max-width: 600px) {
   h1 {
@@ -182,4 +193,9 @@ img {
   section > p {
       width: $container-width-md;
   }
+
+  .outil {
+  
+  }
 }
+

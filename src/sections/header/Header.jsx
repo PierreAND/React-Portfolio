@@ -1,8 +1,9 @@
 import React from 'react'
 import data from './data'
-
+import { useTranslation } from 'react-i18next'
 
 const Header = () => {
+  const { t, i18n} = useTranslation();
   return (
     <header id="header">
      <div className="container header__container">
@@ -11,11 +12,13 @@ const Header = () => {
       </div>
       <h3>Pierre Andrieu</h3>
       <p>
-        You are a click away from building your best website or web app. Im fully available for building modern, mobile responsive, highly performant website today !
+        
+      {t("description.part1")}
+        
       </p>
       <div className="header__cta">
-        <a href="#portfolio" className='btn light'>My Work</a>
-        <a href="#contact" className='btn primary'>Let's Talk</a>
+        <a href="#portfolio" className='btn light'>{t("description.part2")}</a>
+        <a href="#contact" className='btn primary'>{t("description.part3")}</a>
       </div>
       
       
