@@ -25,15 +25,10 @@ const About = () => {
             ))}
           </div>
           <p>
-          Geek passionné des nouvelles technologies, je peux occuper des fonctions allant de développeur Web Full Stack, UI/UX designer à Intégrateur web.
-          Je possède également une compétence avant vente qui me permet d'être à l'écoute des besoins métier et de savoir rédiger des documents de travail.
+         {t("description.part9")}
           </p>
           <p>
-            Développeur full stack web avec assimilation rapide des qualités
-            nécessaires et globales du développement et de la conception
-            d'application. Je me définis comme quelqu'un voulant toujours
-            trouver le moyen le plus efficace d'effectuer une tâche (best
-            practice)."
+        {t("description.part10")}
           </p>
           <a href="/public/CV.pdf" download className="btn primary">
             {" "}

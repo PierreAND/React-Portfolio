@@ -37,11 +37,12 @@
 
 
 .outil {
-  display: flex;
-  justify-content: center;
-  width: fit-content;
+  display: grid;;
+  grid-template-columns: 1fr 1fr  1fr   ;
+  margin-left: 315px;
+  width: 20rem;
   padding-top: 50px;
-  transition: $transition;
+  
 }
 
 .title-outil {
@@ -74,4 +75,5 @@
   .card.service {
     gap: 1.2rem
   }
+
 }
