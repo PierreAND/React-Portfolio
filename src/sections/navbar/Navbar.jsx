@@ -1,10 +1,14 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import { RxHamburgerMenu } from "react-icons/rx";
+import {FaTools} from "react-icons/fa"
+import { useModalContext } from "../../context/modal-context"
+
 
 
 
 function Navbar() {
+  const {showModalHandler} = useModalContext();
   const [toggleMenu, setToggleMenu] = useState(false);
   const [largeur, setLargeur] = useState(window.innerWidth);
 
@@ -43,6 +47,7 @@ function Navbar() {
           </a>
         </ul>
       )}
+   
       
       <button onClick={toggleNav} className="btn-nav">
         <RxHamburgerMenu />

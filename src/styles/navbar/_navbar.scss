@@ -40,13 +40,23 @@ nav {
 
 .btn-langage {
   position: fixed;
-  top: 10px;
-  left: 95%;
+  top: 25px;
+  left: 98%;
   z-index: 300;
   background: transparent;
   color: $color-white;
 
   
+
+}
+
+.btn-tools {
+  position: fixed;
+  z-index: 300;
+  top:25px;
+  left:20px ;
+  background: transparent;
+  color:white;
 
 }
 
@@ -67,11 +77,16 @@ nav {
       text-align: center;
     }
     .btn-nav {
-      display:block;
+      display: flex;
+      position: fixed;
+      left: 45%;
+      top:25px;
     }
 
     .btn-langage {
       position: fixed;
-      left: 280px
+      left:340px;
     }
+
+  
 };

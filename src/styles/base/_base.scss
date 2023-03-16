@@ -3,7 +3,7 @@
 
 @font-face {
   font-family: "Milk";
-  src: url("/public/White\ Milk.otf");
+  src: url("/public/Montserrat.ttf");
   font-display: swap;
 }
 
@@ -36,7 +36,7 @@ section {
   transition: $transition;
 }
 
-section:nth-child(odd) {
+section:nth-child(even) {
   background: $color-white;
 }
 
@@ -194,19 +194,39 @@ img {
       width: $container-width-md;
   }
 
+  .card.theme__modal {
+    width: 20rem;
+  }
+  .outil {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    width: 15rem;
+  }
 
 }
 
+
 .card.theme__modal {
   position: fixed;
-  top: 50%;
+  top:50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  z-index: 800;
+}
+
+.card.theme__modal:hover {
   background: #dedede;
-  z-index: 200;
-  text-align: center;
-  box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.2);
-  padding: 3rem;
-  opacity: 0;
-  animation: animateModal 500ms ease-in forwards;
+  transform: translate(-50%, -50%);
+}
+
+.outil {
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: fit-content;
+}
+
+.theme__modal h3 {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 2rem;
 }

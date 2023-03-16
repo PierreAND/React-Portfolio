@@ -6,10 +6,7 @@ const Contact  = () => {
 return (
   <section id="contact">
     <div className="job">
-    <h2>{t("description.part15")} </h2>
-  <h5>{t("description.part16")}</h5>
-    <p>{t("description.part17")}</p>
- </div>
+    <h2>{t("description.part15")} </h2></div>
   <div className="container contact__container">
     {
       data.map(item => (
