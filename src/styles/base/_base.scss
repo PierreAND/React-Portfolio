@@ -212,7 +212,20 @@ img {
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 800;
+  width: 20rem;
+  text-align: center;
+  box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.2);
+  padding: 3rem;
+  opacity: 0;
+  animation: animateModal 500ms ease-in forwards;
 }
+
+@keyframes animateModal {
+  to {
+      opacity: 1;
+  }
+}
+
 
 .card.theme__modal:hover {
   background: #dedede;
@@ -223,6 +236,7 @@ img {
   display:grid;
   grid-template-columns: 1fr 1fr 1fr;
   width: fit-content;
+  gap: 15px;
 }
 
 .theme__modal h3 {
