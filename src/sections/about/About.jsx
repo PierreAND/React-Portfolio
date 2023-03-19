@@ -30,8 +30,8 @@ const About = () => {
           <p>
         {t("description.part10")}
           </p>
-          <a href="dist/CV.pdf" download className="btn primary">
-            {" "}
+          <a href="CV.pdf" download className="btn primary">
+        
             {t("description.part5")} <AiOutlineDownload />
           </a>
         </div>
