@@ -1,7 +1,7 @@
-import Image1 from "../../../public/DailyPortfolio.png"
-import Image2 from "../../../public/fondprarify.png"
-import Image3 from "../../../public/Terragreenportfolio.png"
-import Image4 from "../../../public/finalefondgamer.png"
+import Image1 from "../../../public/images/DailyPortfolio.png"
+import Image2 from "../../../public/images/fondprarify.png"
+import Image3 from "../../../public/images/Terragreenportfolio.png"
+import Image4 from "../../../public/images/finalefondgamer.png"
 
 
 const data = [
