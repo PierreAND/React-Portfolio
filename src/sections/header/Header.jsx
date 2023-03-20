@@ -8,7 +8,7 @@ const Header = () => {
     <header id="header">
       <div className="container header__container">
         <div className="header__profile">
-          <img src="images/zappa.jpg" alt="Header Portrait" />
+          <img src="images/photo1.png" alt="Header Portrait" />
         </div>
         <h3>Pierre Andrieu</h3>
         <p>{t("description.part1")}</p>
