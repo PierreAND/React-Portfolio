@@ -4,6 +4,7 @@ import data from "./data";
 import { useTranslation } from "react-i18next";
 
 const About = () => {
+  
   const { t, i18n } = useTranslation();
   return (
     <section id="about">
@@ -30,7 +31,7 @@ const About = () => {
           <p>
         {t("description.part10")}
           </p>
-          <a href="CV.pdf" download className="btn primary">
+          <a href="https://www.canva.com/design/DAE7P_97WA8/view" download target="_blank" rel="noopener noreferer" className="btn primary">
         
             {t("description.part5")} <AiOutlineDownload />
           </a>
