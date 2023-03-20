@@ -15,7 +15,7 @@ import {FaTools} from "react-icons/fa"
 import { useModalContext } from '../src/context/modal-context'
 
 function App() {
-  const [toggle, setToggle] = useState();
+  const [toggle, setToggle] = useState("FR");
   const {showModalHandler} = useModalContext();
  
   const changeLanguage = (language) => {
@@ -27,7 +27,7 @@ function App() {
         className="btn-langage"
         onClick={() => setToggle((prev) => !prev)}
       >
-        {toggle ? "EN" : "FR"}
+        {toggle ? "FR" : "EN"}
       </button>
 
       <button className="btn-tools" onClick={showModalHandler}>
