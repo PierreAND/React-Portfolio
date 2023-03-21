@@ -10,7 +10,7 @@ const FAQs = () => {
       <p>
         {t("description.part14")}
       </p>
-      <div className="container faqs__container">
+      <div className="container faqs__container" data-aos="fade-in">
       {
         faqs.map(faq => (
           <FAQ key={faq.id} faq={faq}/>

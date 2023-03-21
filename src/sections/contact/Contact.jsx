@@ -7,7 +7,7 @@ return (
   <section id="contact">
     <div className="job">
     <h2>{t("description.part15")} </h2></div>
-  <div className="container contact__container">
+  <div className="container contact__container" data-aos="fade-up">
     {
       data.map(item => (
         <a  key={item.id} href={item.link} target="_blank" rel='noopener noreferrer'>{item.icon}</a>

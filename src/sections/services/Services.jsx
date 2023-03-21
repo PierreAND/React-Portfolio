@@ -8,10 +8,10 @@ const Services = () => {
   const { t, i18n} = useTranslation();
 
   return (
-    <section id="services">
+    <section id="services" >
       <h2>{t("description.part7")}</h2>
       <p> {t("description.part8")} </p>
-      <div className="container services__container">
+      <div className="container services__container" data-aos="fade-up">
         {
           data.map(item => (
      
