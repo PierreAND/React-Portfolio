@@ -31,7 +31,7 @@ const About = () => {
           <p>
         {t("description.part10")}
           </p>
-          <a href="https://www.canva.com/design/DAE7P_97WA8/view" download target="_blank" rel="noopener noreferer" className="btn primary">
+          <a href="https://www.cjoint.com/doc/23_03/MCxj4PAtOx0_FS-CV.pdf" download target="_blank" rel="noopener noreferer" className="btn primary">
         
             {t("description.part5")} <AiOutlineDownload />
           </a>
