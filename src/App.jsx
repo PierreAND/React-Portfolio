@@ -27,7 +27,7 @@ function App() {
         className="btn-langage"
         onClick={() => setToggle((prev) => !prev)}
       >
-        {toggle ? "FR" : "EN"}
+        {toggle ? "🇫🇷" : "🇺🇸"}
       </button>
 
       <button className="btn-tools" onClick={showModalHandler}>

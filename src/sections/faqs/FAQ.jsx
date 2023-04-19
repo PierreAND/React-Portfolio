@@ -2,9 +2,11 @@ import React from 'react'
 import Card from "../../components/Card"
 import {AiOutlinePlus, AiOutlineMinus } from 'react-icons/ai'
 import { useState } from 'react'
+import { useTranslation } from "react-i18next";
 
 const FAQ = ({faq}) => {
 
+  const { t, i18n } = useTranslation();
   const [toggle, setToggle] = useState(false);
   return (
     <Card className="faq">
@@ -14,7 +16,7 @@ const FAQ = ({faq}) => {
          {toggle ? <AiOutlineMinus/> : <AiOutlinePlus/> }
         </button>
       </div>
-     {toggle && <p className='faq__answer'>{faq.answer}</p> }
+     {toggle && <p className='faq__answer'>{t(faq.answer)}</p> }
 
     </Card>
     )

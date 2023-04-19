@@ -2,7 +2,7 @@ const faqs = [
   {
     id:1 ,
     question:"Avec quels types de langages de programmation êtes-vous familier?",
-    answer:"Je maitrise parfaitement le HTML, le CSS et Javascript, et je possède de bonnes compétences en SQL et Ruby. Depuis quelques temps j'utilise une partie de mon temps libre afin de me former à TypeScript." 
+    answer:"Je maitrise parfaitement le HTML, le CSS et Javascript, et je possède de bonnes compétences en SQL et Ruby.Au cours de mes expériences formatrices  précédentes, j'ai acquis une solide expérience dans le développement d'applications web modernes et performantes en utilisant React.js. Depuis quelques temps j'utilise une partie de mon temps libre afin de me former à TypeScript." 
   },
   {
     id:2 ,
