@@ -27,7 +27,7 @@ const faqs = [
   {
     id:6 ,
     question: "Quelle différence faites vous entre PHP et Node.js?",
-    answer: "PHP et Node.js sont deux technologies web le plus utilisées dans les projets de développement web. Les deux concerne essentiellement le developpement côté serveur ( Node.js sert côté client). La différence de ces 2 technologies resident donc pour moi dans les préferences de l'utilisateur. Node.Js présente les atouts d'être plus récent et dispose d'un système d'execution ultra rapide, alors que PHP par son ancienneté présente une documentation et des ressources vastes"
+    answer: "PHP et Node.js sont deux technologies web les plus utilisées dans les projets de développement web. Les deux concernent essentiellement le developpement côté serveur ( Node.js sert côté client). La différence de ces 2 technologies resident donc pour moi dans les préferences de l'utilisateur. Node.Js présente les atouts d'être plus récent et dispose d'un système d'execution ultra rapide, alors que PHP par son ancienneté présente une documentation et des ressources vastes"
   }
 ]
 
