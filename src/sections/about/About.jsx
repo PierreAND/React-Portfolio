@@ -31,7 +31,7 @@ const About = () => {
           <p>
         {t("description.part10")}
           </p>
-          <a href="https://www.cjoint.com/doc/23_04/MDeijrzFlX0_CV-Portfolio.pdf" download target="_blank" rel="noopener noreferer" className="btn primary">
+          <a href="https://www.cjoint.com/doc/23_04/MDCnYh4SQ30_CV---Alternance.pdf" download target="_blank" rel="noopener noreferer" className="btn primary">
         
             {t("description.part5")} <AiOutlineDownload />
           </a>
