@@ -29,7 +29,7 @@ const About = () => {
          {t("description.part9")}
           </p>
           <p>
-        {t("description.part10")}
+    
           </p>
           <a href="https://www.cjoint.com/doc/23_04/MDCnYh4SQ30_CV---Alternance.pdf" download target="_blank" rel="noopener noreferer" className="btn primary">
         
