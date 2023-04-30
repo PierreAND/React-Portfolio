@@ -4,7 +4,7 @@
 nav {
   position: fixed;
   top: 0;
-  width: 100%;
+  width: 100vw;
   height: 78px;
   background: $color-primary;
   z-index: 100;
@@ -41,7 +41,7 @@ nav {
 .btn-langage {
   position: fixed;
   top: 25px;
-  left: 98%;
+  right: 20px;
   z-index: 300;
   background: transparent;
   color: $color-white;
@@ -88,29 +88,7 @@ nav {
         top:25px;
       }
       
-      .btn-langage {
-        position: fixed;
-        left:520px;
-    }
-    
+  
     
   };
   
-  @media  screen and (max-width: 550px) {
-    .btn-langage {
-      position: fixed;
-      left: 400px;
-    }
-  }
-  @media  screen and (max-width: 420px) {
-    .btn-langage {
-      position: fixed;
-      left: 340px;
-    }
-  }
-  @media  screen and (max-width: 320px) {
-    .btn-langage {
-      position: fixed;
-      left: 280px;
-    }
-  }

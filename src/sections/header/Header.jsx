@@ -13,18 +13,18 @@ const Header = () => {
   const { t, i18n } = useTranslation();
   return (
     <header id="header">
-      <div className="container header__container">
-        <div className="header__profile" data-aos="fade-up">
+      <div className="container header__container" data-aos="fade-up">
+        <div className="header__profile">
           <img src="images/Pierreprofile.jpg" alt="Header Portrait" />
         </div>
-        <h2 data-aos="fade-up">Pierre Andrieu</h2>
-        <p data-aos="fade-up"> {t("description.part1")}</p>
-        <p data-aos="fade-up">{t("description.part16")}</p>
-        <p data-aos="fade-up">
-          <strong>"{t("description.part17")}"</strong>
+        <h2 >Pierre Andrieu</h2>
+        <p > {t("description.part1")}</p>
+        <p >{t("description.part16")} <br/>
+        
+          <strong> "{t("description.part17")}"</strong>
         </p>
-        <div className="header__cta" data-aos="fade-up">
-          <a href="#portfolio" className="btn light">
+        <div className="header__cta">
+          <a href="#portfolio" className="btn primary">
             {t("description.part2")}
           </a>
           <a href="#contact" className="btn primary">
