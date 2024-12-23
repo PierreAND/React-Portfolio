@@ -14,6 +14,9 @@ const Header = () => {
   return (
     <header id="header">
       <div className="container header__container" data-aos="fade-up">
+        <div className="header__profile">
+          <img src="https://iili.io/2OatGZQ.jpg" />
+        </div>
         <h2 >Pierre Andrieu</h2>
         <p > {t("description.part1")}</p>
         <p >{t("description.part16")} <br/>
