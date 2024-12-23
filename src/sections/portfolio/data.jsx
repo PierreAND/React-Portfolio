@@ -39,7 +39,7 @@ const data = [
         category:"-s",
         image: Image4,
         title:"RandoTrack",
-        desc: "Application en clean architecture back et front, AdonisJs et Angullar typeScript! Cette application permet aux utilisateurs de pré-tracer leurs itinéraires, de marquer des points d’intérêt, de visualiser la courbe des dénivelés. Grâce au suivi GPS, on bénéficie d’un suivi de position en temps réel lors des sorties.  ",
+        desc: "Application en clean architecture back et front, AdonisJs et Angullar typeScript: Cette application permet aux utilisateurs de pré-tracer leurs itinéraires, de marquer des points d’intérêt, de visualiser la courbe des dénivelés. Grâce au suivi GPS, on bénéficie d’un suivi de position en temps réel lors des sorties.  ",
         demo: "https://randotrack.vercel.app/",
         github: ""
     
