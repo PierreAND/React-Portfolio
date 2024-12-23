@@ -6,7 +6,7 @@ import Image4 from "../../../public/images/rando.png"
 const data = [
     {
         id: 1,
-        category:"Personal",
+        category:"Persoaal",
         image: Image3,
         title:"TerraGreen",
         desc: "FullStack Application ReactJS avec Ruby on rails. TerraGreen est un site qui permet de localiser des zones à depolluer. ",
