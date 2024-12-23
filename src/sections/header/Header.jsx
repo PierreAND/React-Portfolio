@@ -15,7 +15,7 @@ const Header = () => {
     <header id="header">
       <div className="container header__container" data-aos="fade-up">
         <div className="header__profile">
-          <img src="https://iili.io/2OatGZQ.jpg" />
+          <img src="https://iili.io/2OMiU6Q.md.jpg" />
         </div>
         <h2 >Pierre Andrieu</h2>
         <p > {t("description.part1")}</p>
