@@ -25,7 +25,6 @@ header {
 .header__profile img {
   width: 18rem;
   height: 22rem;
-  border-radius:  0 50% 50% 50%;
   overflow: hidden;
   margin-bottom: 1.5rem;
 
@@ -55,7 +54,10 @@ header {
   gap:1rem 
 }
 
-
+#header > div > div.header__profile > img {
+  width: 150px;
+  height: 150px;
+}
 .header__socials a {
   width: 1.8rem;
   aspect-ratio: 1/1;
