@@ -1,8 +1,7 @@
 import Image1 from "../../../public/images/DailyPortfolio.png"
-import Image2 from "../../../public/images/fondprarify.png"
+import Image2 from "../../../public/images/prarify5.png"
 import Image3 from "../../../public/images/Terragreenportfolio.png"
-import Image4 from "../../../public/images/finalefondgamer.png"
-
+import Image4 from "../../../public/images/rando.png"
 
 const data = [
     {
@@ -39,10 +38,10 @@ const data = [
         id: 4,
         category:"-s",
         image: Image4,
-        title:"Gamerscon",
-        desc: "Application Javascript / Sass. Projet de notation de jeux vidéos selon les plateformes grâce à l'API RAWG Video Games Database ",
-        demo: "http://localhost:5170/",
-        github: "https://github.com/Samsou1/JS_rawg"
+        title:"RandoTrack",
+        desc: "Application en clean architecture back et front, AdonisJs et Angullar typeScript :  Cette application permet aux utilisateurs de pré-tracer leurs itinéraires, de marquer des points d’intérêt, de visualiser la courbe des dénivelés. Grâce au suivi GPS, on bénéficie d’un suivi de position en temps réel lors des sorties.  ",
+        demo: "https://randotrack.vercel.app/",
+        github: ""
     
    }
 
