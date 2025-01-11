@@ -10,7 +10,6 @@ const data = [
         image: Image3,
         title:"TerraGreen",
         desc: "FullStack Application ReactJS avec Ruby on rails. TerraGreen est un site qui permet de localiser des zones à depolluer. ",
-        demo: "https://terra-green.vercel.app/",
         github: "https://github.com/Samsou1/TerraGreen_Front"
     
    },
@@ -30,7 +29,6 @@ const data = [
            image: Image2,
            title:"Prairify",
            desc: "Application Rails framework : AlpineJS / TailwindCss. Ce projet nait à l'origine d'un thread Reddit sur la nécessité de changer la conception de nos jardins",
-           demo: "https://prairify.me/en",
            github: "https://github.com/PierreAND/prairify.me"
        
       },
@@ -41,7 +39,7 @@ const data = [
         title:"RandoTrack",
         desc: "Application en clean architecture back et front, AdonisJs et Angullar typeScript: Cette application permet aux utilisateurs de pré-tracer leurs itinéraires, de marquer des points d’intérêt, de visualiser la courbe des dénivelés. Grâce au suivi GPS, on bénéficie d’un suivi de position en temps réel lors des sorties.  ",
         demo: "https://randotrack.vercel.app/",
-        github: ""
+        github: "https://github.com/O-clock-Elfe/projet-6-rando-track"
     
    }
 
