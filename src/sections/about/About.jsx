@@ -9,11 +9,6 @@ const About = () => {
   return (
     <section id="about">
       <div className="container about__container">
-        <div className="about__left">
-          <div className="about__portrait">
-            <img src="images/devImage.png" alt="Portrait" />
-          </div>
-        </div>
         <div className="about__right">
           <h2>{t("description.part4")}</h2>
           <div className="about__cards">
