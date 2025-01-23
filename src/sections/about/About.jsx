@@ -23,12 +23,14 @@ const About = () => {
           <p>
          {t("description.part9")}
           </p>
-          <p>
-    
-          </p>
+       
           <a href="https://www.cjoint.com/doc/23_04/MDCnYh4SQ30_CV---Alternance.pdf" download target="_blank" rel="noopener noreferer" className="btn primary">
         
             {t("description.part5")} <AiOutlineDownload />
+          </a>
+          <a href="https://www.cjoint.com/doc/25_01/OAwrKJq6Uvj_DP-Pierre-Andrieu-CDA-1-.pdf" download target="_blank" rel="noopener noreferer" className="btn primary">
+        
+            Dossier Pro <AiOutlineDownload />
           </a>
         </div>
       </div>
