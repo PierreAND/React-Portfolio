@@ -7,7 +7,7 @@ const faqs = [
   {
     id:2 ,
     question: "Sur quels types de produits avez-vous travaillé auparavant ?",
-    answer: "Ma dernière expérience qui a pris part lors de mes 2 dernières semaines de formation The Hacking Project, j'ai travaillé comme développeur full stack pour un site à vocation environnementale. Avec une équipe de 5 personnes, nous avons construit from scratch un stack React.Js/Rails API. "
+    answer: "J'ai durant ma période chez Valeo, beaucoup travailler dans le deploiement de machine dans des domaines liés a des regions européennes. Sur la distribution Ubuntu, je créer des script .sh qui appliqué des certificats à tout nouveaux utilisateurs dans le domaine."
   },
   {
     id:3 ,
