@@ -21,8 +21,8 @@ const faqs = [
   },
   {
     id:5 ,
-    question: "Comment vous tenez-vous informé des nouveautés et des avancées dans notre secteur ?",
-    answer: "Dans l'optique de renforcer mes compétences et connaissances en tant que développeur full stack, je commence toujours ma journée type de semaine par 30 minutes de consultation de site (type blog comme Y Hacker News / BDM). Premièrement  afin d'augmenter ma culture tech et informatique. Mais également pour être informé des dernières évolutions dans notre secteur"
+    question: "Comment vous entretenez vous votre veille informatique ?",
+    answer: "Dans l'optique de renforcer mes compétences et connaissances en tant que développeur, je commence toujours ma journée type de semaine par 30 minutes de consultation de site (TechCrunch, ZDnet) j'utilise mon freshrss (configuré via container.io sur mon NAS) pour plugger les flux et améliorer la consistance de ma veille. Premièrement  afin d'augmenter ma culture tech et informatique. Mais également pour être informé des dernières évolutions dans notre secteur"
   },
   {
     id:6 ,
