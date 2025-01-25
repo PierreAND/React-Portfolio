@@ -3,6 +3,7 @@ import data from "./data";
 import { useTranslation } from "react-i18next";
 import { useEffect } from "react";
 import AOS from "aos";
+import Image1 from "../../../public/images/profil.jpg"
 import 'aos/dist/aos.css';
 
 const Header = () => {
@@ -15,7 +16,7 @@ const Header = () => {
     <header id="header">
       <div className="container header__container" data-aos="fade-up">
         <div className="header__profile">
-          <img src="../../../public/images/profil.jpg" />
+          <img src={Image1} />
         </div>
         <h2 >Pierre Andrieu</h2>
         <p > {t("description.part1")}</p>
