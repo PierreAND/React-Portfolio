@@ -7,7 +7,7 @@ const faqs = [
   {
     id:2 ,
     question: "Sur quels types de produits avez-vous travaillé auparavant ?",
-    answer: "J'ai durant ma période chez Valeo, beaucoup travailler dans le deploiement de machine dans des domaines liés a des regions européennes. Sur la distribution Ubuntu, je créer des script .sh qui appliqué des certificats à tout nouveaux utilisateurs dans le domaine."
+    answer: "Pendant ma période chez Valeo, j'ai beaucoup travaillé sur le déploiement de machines dans des domaines liés à des régions européennes. Sur la distribution Ubuntu, je créais des scripts .sh qui appliquaient des certificats à tout nouvel utilisateur dans le domaine."
   },
   {
     id:3 ,
