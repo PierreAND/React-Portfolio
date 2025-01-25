@@ -17,7 +17,7 @@ const faqs = [
   {
     id:4 ,
     question: "Quel comportement adoptez vous lorsque vous n'arrivez pas a résoudre un bug ?",
-    answer: "En général, je commence par faire mes propres recherches sur Internet afin de comprendre ce qu’il se passe et comment y remédier. J’utilise par exemple des sites comme StackOverFlow ou Github. Je demande également de l’aide à mes collègues qui ont peut-être déjà fait face au même type de problème et donc trouvé une solution. Je communique évidemment avec ma direction afin de les informer de mes avancées."
+    answer: "En général, je commence par faire mes propres recherches sur Internet afin de comprendre ce qu’il se passe et comment y remédier. J’utilise par exemple des sites comme Reddit , StackOverflow ou Github. Je demande également de l’aide à mes collègues qui ont peut-être déjà fait face au même type de problème et donc trouvé une solution. Je communique évidemment avec ma direction afin de les informer de mes avancées."
   },
   {
     id:5 ,
