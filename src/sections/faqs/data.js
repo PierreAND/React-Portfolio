@@ -1,8 +1,8 @@
 const faqs = [
   {
     id:1 ,
-    question:"Avec quels types de langages de programmation êtes-vous familier?",
-    answer:"Je maitrise parfaitement le HTML, le CSS et Javascript, et je possède de bonnes compétences en SQL et Ruby.Au cours de mes expériences formatrices  précédentes, j'ai acquis une solide expérience dans le développement d'applications web modernes et performantes en utilisant React.js. Depuis quelques temps j'utilise une partie de mon temps libre afin de me former à TypeScript." 
+    question:"Portes tu une importance aux principes de la programmation orientée objet ?",
+    answer:"Oui, j’accorde une grande importance aux principes de la programmation orientée objet. Mon approche est toujours pilotée par le domaine (DDD - Domain-Driven Design), ce qui me pousse naturellement à respecter les principes SOLID et à structurer mon code de manière claire, maintenable et évolutive. En adoptant une architecture centrée sur le domaine, je veille à ce que chaque couche du code reflète fidèlement les besoins métier, favorisant ainsi une séparation nette des responsabilités et une meilleure testabilité. Le respect des bonnes pratiques de la POO, telles que l’encapsulation, l’abstraction et le polymorphisme, me permet de concevoir des systèmes modulaires et réutilisables, tout en garantissant une scalabilité optimale." 
   },
   {
     id:2 ,
@@ -11,8 +11,8 @@ const faqs = [
   },
   {
     id:3 ,
-    question: "Une mission sur la diminution du temps de chargement sur le site Internet de l’entreprise. Comment vous y prenez-vous pour y parvenir ?",
-    answer: "Pour réduire le temps de chargement et offrir la meilleur expérience ultilisateur possible, j'utilise LightHouse qui audit les performances d'une page Web. Grâce a cet outil je mise en général sur l'optimisation des images, la minimisation des requêtes HTTP et la mise en cache du navigateur. "
+    question: "Avez-vous une expérience en DevOps ?",
+    answer: "Oui, j’ai été mainteneur sur un projet de versionning de listeners (scripts Groovy) dans Jira. J’ai connecté ce projet à GitLab et mis en place une CI/CD permettant à l’équipe Jira d’écrire leurs scripts dans une IDE, avec tous les bénéfices de Git : gestion des versions, pull requests et merges, tests automatisés avant le déploiement. Cette approche a permis une meilleure collaboration, un contrôle qualité renforcé et une intégration fluide des scripts Groovy dans Jira. "
   },
   {
     id:4 ,
