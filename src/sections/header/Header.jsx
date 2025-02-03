@@ -17,7 +17,7 @@ const Header = () => {
     <header id="header">
       <div className="container header__container" data-aos="fade-up">
         <div className="header__profile">
-           <FcManager size={300} />
+           <FcManager size={120} />
         </div>
         <h2 >Pierre Andrieu</h2>
         <p > {t("description.part1")}</p>
@@ -26,9 +26,7 @@ const Header = () => {
           <strong> "{t("description.part17")}"</strong>
         </p>
         <div className="header__cta">
-          <a href="#portfolio" className="btn primary">
-            {t("description.part2")}
-          </a>
+
           <a href="#contact" className="btn primary">
             {t("description.part3")}
           </a>
