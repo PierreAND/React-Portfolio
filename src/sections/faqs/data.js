@@ -22,7 +22,7 @@ const faqs = [
   {
     id:5 ,
     question: "Comment vous entretenez vous votre veille informatique ?",
-    answer: "Dans l'optique de renforcer mes compétences et connaissances en tant que développeur, je commence toujours ma journée type de semaine par 30 minutes de consultation de site (TechCrunch, ZDnet) j'utilise mon freshrss (configuré via container.io sur mon NAS) pour plugger les flux et améliorer la consistance de ma veille. Premièrement  afin d'augmenter ma culture tech et informatique. Mais également pour être informé des dernières évolutions dans notre secteur"
+    answer: "Dans l'optique de renforcer mes compétences et connaissances en tant que développeur, je commence toujours ma journée type de semaine par 30 minutes de consultation de site (TechCrunch, ZDnet) j'utilise mon freshrss (configuré via container.io sur mon NAS) pour plugger les flux et améliorer la consistance de ma veille. Premièrement  afin d'augmenter ma culture tech et informatique. Mais également pour être informé des dernières évolutions"
   },
   {
     id:6 ,
