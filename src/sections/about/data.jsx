@@ -9,7 +9,7 @@ import { TfiMicrosoftAlt } from "react-icons/tfi";
 
 
 const data = [
-    {id: 1, icon: <FaAward/>, title: 'Experience', desc: '1+ Year Working'},
+    {id: 1, icon: <FaAward/>, title: 'Experience', desc: '2+ Year Working'},
     {id: 2, icon: <TbBooks/>, title: 'Projects', desc: '10+ Completed'},
     {id: 3, icon: <MdArchitecture />, title: 'Architect IT', desc: 'Endpoint Engineer'},
     {id: 4, icon: <FaLinux />, title: 'Linux User', desc: 'CompTIA Linux XK-006 (V8) '},

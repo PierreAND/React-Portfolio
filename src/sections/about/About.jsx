@@ -24,7 +24,7 @@ const About = () => {
          {t("description.part9")}
           </p>
        
-          <a href="https://www.cjoint.com/doc/25_02/OBwkBoWHLyj_PierreA-CV-9-.pdf" download target="_blank" rel="noopener noreferer" className="btn primary">
+          <a href="https://online.fliphtml5.com/iufik/uaru/" download target="_blank" rel="noopener noreferer" className="btn primary">
         
             {t("description.part5")} <AiOutlineDownload />
           </a>
