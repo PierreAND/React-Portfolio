@@ -13,7 +13,7 @@ const data = [
     {id: 2, icon: <TbBooks/>, title: 'Projects', desc: '10+ Completed'},
     {id: 3, icon: <MdArchitecture />, title: 'Architect IT', desc: 'Endpoint Engineer'},
     {id: 4, icon: <FaLinux />, title: 'Linux User', desc: 'CompTIA Linux XK-006 (V8) '},
-    {id: 4, icon: <FaGitlab />, title: 'DevOps Skills', desc: 'configuration Runner/ CI CD'},
+    {id: 4, icon: <FaGitlab />, title: 'DevOps Skills', desc: 'Git / Ansible / Terraform Junior'},
     {id: 4, icon: <FaDocker />, title: 'Container technology', desc: 'Docker / Kubernetes'},
     {id: 4, icon: <FaAws />, title: 'Cloud operator', desc: ' Cloud Practitioner Certified'},
     {id: 4, icon: <TfiMicrosoftAlt />, title: 'Microsoft tools', desc: 'Config deployment Active Directory'}
